@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ACTesteLibCreate_Example' do
+  pod 'ACTesteLibCreate', :path => '../'
+
+  target 'ACTesteLibCreate_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
