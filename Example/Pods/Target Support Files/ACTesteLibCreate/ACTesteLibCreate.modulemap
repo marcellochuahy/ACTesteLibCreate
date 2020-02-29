@@ -1,6 +1,0 @@
-framework module ACTesteLibCreate {
-  umbrella header "ACTesteLibCreate-umbrella.h"
-
-  export *
-  module * { export * }
-}
