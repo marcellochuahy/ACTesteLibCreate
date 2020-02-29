@@ -1,0 +1,22 @@
+{
+  "name": "ACTesteLibCreate",
+  "version": "0.1.0",
+  "summary": "A short description of ACTesteLibCreate.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/marcellochuahy/ACTesteLibCreate",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "marcellochuahy": "marcello@chuahy.org"
+  },
+  "source": {
+    "git": "https://github.com/marcellochuahy/ACTesteLibCreate.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ACTesteLibCreate/Classes/**/*"
+}

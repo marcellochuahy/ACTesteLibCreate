@@ -1,0 +1,16 @@
+PODS:
+  - ACTesteLibCreate (0.1.0)
+
+DEPENDENCIES:
+  - ACTesteLibCreate (from `../`)
+
+EXTERNAL SOURCES:
+  ACTesteLibCreate:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ACTesteLibCreate: 8610437043f0facd56be29c4ec5201dea76bfc57
+
+PODFILE CHECKSUM: 6fa5c114b489429148fdd635b8e1e160c5269ddd
+
+COCOAPODS: 1.8.3

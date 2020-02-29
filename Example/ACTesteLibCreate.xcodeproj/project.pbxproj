@@ -41,10 +41,10 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		955CA681CBE3514A07B82EC7 /* Pods-ACTesteLibCreate_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ACTesteLibCreate_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ACTesteLibCreate_Tests/Pods-ACTesteLibCreate_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		A264E1A5D66E81D19F9CAF6C /* ACTesteLibCreate.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ACTesteLibCreate.podspec; path = ../ACTesteLibCreate.podspec; sourceTree = "<group>"; };
+		A264E1A5D66E81D19F9CAF6C /* ACTesteLibCreate.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ACTesteLibCreate.podspec; path = ../ACTesteLibCreate.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B266F55C1CA1DD997033983D /* Pods-ACTesteLibCreate_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ACTesteLibCreate_Example.debug.xcconfig"; path = "Target Support Files/Pods-ACTesteLibCreate_Example/Pods-ACTesteLibCreate_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		CA4C58BB2BC5EA1793070A92 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		D622CFDD7F02C83DA833D703 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		CA4C58BB2BC5EA1793070A92 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D622CFDD7F02C83DA833D703 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D7847B427EEFE83F6063E0C0 /* Pods_ACTesteLibCreate_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ACTesteLibCreate_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F518CE950AA31A60EDD470FC /* Pods-ACTesteLibCreate_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ACTesteLibCreate_Example.release.xcconfig"; path = "Target Support Files/Pods-ACTesteLibCreate_Example/Pods-ACTesteLibCreate_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -147,7 +147,6 @@
 				955CA681CBE3514A07B82EC7 /* Pods-ACTesteLibCreate_Tests.debug.xcconfig */,
 				48410DF40B256F74794E312B /* Pods-ACTesteLibCreate_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
